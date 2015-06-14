@@ -16,7 +16,10 @@ Example: https://github.com/rwaldron/exponentiation-operator
 
 The feature is free to describe all aspects of the platform that it interacts with and is described as thoroughly as possible in the readme.md of the repo. Using a repo is convenient for adding and removing fellow feature contributors.
 
-### 2. Create issues and pull requests on that repo
+### 2. Post about it on the Forums
+We strongly encourage new RFCs to be posted on [the Forums](forums.tessel.io) for the sake of including as many people as possible.
+
+### 3. Create issues and pull requests on that repo
 Feedback, discussion and development of the proposal is done by filing issues and pull requests. This ensures that all of the history of a particular feature is preserved. Issues allow creating trackable bullet lists of action items, these are useful for defining milestones.
 Example: https://github.com/rwaldron/exponentiation-operator/issues
 
@@ -26,7 +29,7 @@ Example: https://github.com/arv/ecmascript-object-observe/pull/12/files
 The repo may include reference implementations, tests, API mockups, use cases, diagrams, illustrations, presentations, pdfs, slide decks, etc. The idea is that the "art" is preserved in a single location.
 Example: https://github.com/tc39/Array.prototype.includes/tree/master/reference-implementation
 
-### 3. Update the central repo with progress
+### 4. Update the central repo with progress
 
 Each proposal is presented in 4 stages which are defined in a [publicly accessible process document](https://docs.google.com/document/d/1DWcHGNI6na1ybcdrUR_wLcz0n5rNJzEbQMGd7sXVjRc/edit?usp=sharing)
 
@@ -35,6 +38,6 @@ Example: https://github.com/tc39/ecma262
 
 Each stage of progress is presented to Tessel Team Members by tagging one on your repo. Current Team Members can be found [here](https://github.com/tessel/project/blob/master/COLLABORATORS.md) The feature either advances to the next stage or continues being developed at the current stage, incorporating new feedback.
 
-### 4. Merging Code
+### 5. Merging Code
 Once the feature is complete and all the relevant code has been merged into the relevant repos, the central repo is updated by a Team Member to indicate that the feature is merged.
 
