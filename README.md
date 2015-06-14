@@ -28,13 +28,13 @@ Example: https://github.com/tc39/Array.prototype.includes/tree/master/reference-
 
 ### 3. Update the central repo with progress
 
-Each proposal is presented in 4 stages which are defined in a [publicly accessible process document](https://docs.google.com/document/d/1QbEE0BsO4lvl7NFTn5WXWeiEIBfaVUF7Dk0hpPpPDzU/edit)
+Each proposal is presented in 4 stages which are defined in a [publicly accessible process document](https://docs.google.com/document/d/1DWcHGNI6na1ybcdrUR_wLcz0n5rNJzEbQMGd7sXVjRc/edit?usp=sharing)
 
-The feature proposal is added to a central repo that keeps a public record of the feature's current stage.
+The feature proposal is added to a central repo (under "Active RFCs") that keeps a public record of the feature's current stage via a PR on this repo.
 Example: https://github.com/tc39/ecma262
 
-Each stage of progress is presented to the committee at one of the bi-monthly meetings (this can obviously be done is shorter cycles). The feature either advances to the next stage or continues being developed at the current stage, incorporating new feedback.
+Each stage of progress is presented to Tessel Team Members by tagging one on your repo. Current Team Members can be found [here](https://github.com/tessel/project/blob/master/COLLABORATORS.md) The feature either advances to the next stage or continues being developed at the current stage, incorporating new feedback.
 
 ### 4. Merging Code
-Once the feature is complete and all the relevant code has been merged into the relevant repos, the central repo is update to indicate that the feature is merged.
+Once the feature is complete and all the relevant code has been merged into the relevant repos, the central repo is updated by a Team Member to indicate that the feature is merged.
 
