@@ -5,7 +5,9 @@ For feature additions to the Tessel platform that require some aspect of design 
 Some things don't require RFCs! These are things like documentation fixes or additions or simple bug fixes. If you're not sure, open an issue and ask or pose the question on [the Tessel Slack channel](tessel-slack.herokuapp.com).
 
 ## Active RFCs
-None yet! Read about the process below and be the first.
+|🚀| Proposal                                                                                             | Champion      | Stage
+|---|------------------------------------------------------------------------------------                 |-------------- | ------|------
+|
 
 ## How to create an RFC
 Our RFC process is heavily inspired by the ECMA/TC39 RFC process. The process is as follows:
@@ -29,15 +31,15 @@ Example: https://github.com/arv/ecmascript-object-observe/pull/12/files
 The repo may include reference implementations, tests, API mockups, use cases, diagrams, illustrations, presentations, pdfs, slide decks, etc. The idea is that the "art" is preserved in a single location.
 Example: https://github.com/tc39/Array.prototype.includes/tree/master/reference-implementation
 
-### 4. Update the central repo with progress
+### 4. Update this central repo with progress
 
-Each proposal is presented in 4 stages which are defined in a [publicly accessible process document](https://docs.google.com/document/d/1DWcHGNI6na1ybcdrUR_wLcz0n5rNJzEbQMGd7sXVjRc/edit?usp=sharing)
+Each proposal is presented in 4 stages which are defined [here](https://docs.google.com/document/d/1DWcHGNI6na1ybcdrUR_wLcz0n5rNJzEbQMGd7sXVjRc/edit?usp=sharing)
 
-The feature proposal is added to a central repo (under "Active RFCs") that keeps a public record of the feature's current stage via a PR on this repo.
+The feature proposal is added to this central repo (under "Active RFCs") which keeps a public record of the feature's current stage. Do this via a PR on this repo.
 Example: https://github.com/tc39/ecma262
 
 Each stage of progress is presented to Tessel Team Members by tagging one on your repo. Current Team Members can be found [here](https://github.com/tessel/project/blob/master/COLLABORATORS.md) The feature either advances to the next stage or continues being developed at the current stage, incorporating new feedback.
 
 ### 5. Merging Code
-Once the feature is complete and all the relevant code has been merged into the relevant repos, the central repo is updated by a Team Member to indicate that the feature is merged.
+Once the feature is complete and all the relevant code has been merged into the relevant repos, this central repo is updated by a Team Member to indicate that the feature is merged.
 
