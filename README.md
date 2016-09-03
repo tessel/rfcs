@@ -1,4 +1,5 @@
 # Tessel RFCs
+[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/tessel/project/blob/master/CONDUCT.md)
 
 For feature additions to the Tessel platform that require some aspect of design or discussion, an RFC (Request For Comment) is necessary. This helps the community collaborate to build robust, thoughtful, and effective additions to the platform. Our hope is to keep the process as light as possible while preserving the reliability and forward-looking nature of Tessel.
 
