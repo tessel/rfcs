@@ -2,6 +2,30 @@
 
 This document refines the requirements for Reach, a remote I/O board for connecting to sensors.
 
+The point of Tessel Reach is to enable low-power internet-connected devices to be programmed in high-level languages - an extension of Tessel into the low-power realm, and a sensible/accessible way to connect many distributed sensor nodes to form a sensor ecosystem.
+
+Tessel and Reach form star network whose origin is Tessel and points are Reach modules. The Tessel 2 is the entry point for the programmer:
+
+* Tessel 2 has a higher-power CPU for processing data
+* Tessel 2 supports our development environment and supports running high-level languages
+* Internet connectivity is sourced by WiFi (as a station) or Ethernet; it can also act as a WiFi access point
+* Only one Tessel 2 is required to control many BLE Reach nodes
+* Tessel 2 requires a USB dongle to connect with Reach over BLE
+* The Tessel 2 is likely wall-powered for long-term deployment
+
+Reach modules are low-power sensor nodes placed around a room or environment:
+
+* Reach modules are most likely powered by a coin cell battery for months to years
+* They connect with Tessel over BLE or Wifi
+* Each of these nodes can be controlled individually by the host, with the intent that fetching data is infrequent and requires few I/O operations.
+
+## Motivation
+
+What are usecases for Reach/BLE?
+
+* ...
+* ...
+
 ## History
 
 Technical Machine conceived of a low-power sensor board for the Tessel ecosystem in 2015. There were a few prototypes developed:
@@ -19,7 +43,7 @@ Because more functionality and a greater thriving community exists today, we are
 
 ## Requirements
 
-Tessel and Reach form a star model sensor network: you have a higher-power Linux CPU in the center which forms the backbone of processing data and Internet connectivity (over WiFi or Ethernet), and many possibly battery-powered sensor nodes placed around a room or environment. Each of these nodes can be controlled individually by the host, with the intent that fetching data is infrequent and requires few I/O operations.
+These detail the product features and user experience.
 
 ### Radio
 
