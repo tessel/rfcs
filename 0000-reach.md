@@ -73,13 +73,17 @@ i2c.send(Buffer.from([0xff, 0x00]), () => {
 
 TODO: How to detect reaches?
 
-### Codebase
+### Programming
 
 The Codebase is written in C.
 
 Additional languages are not supported by the ESP32 toolchain.
 
 TODO: Is it intended that we support users cross-compiling their own code kernels for Reach? Now or in the distant future?
+
+### Recovery
+
+The ESP32 exposes a UART port for programming. This can be wired directly to a Tessel for reflashing the device.
 
 ## Status
 
