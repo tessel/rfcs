@@ -41,7 +41,8 @@ Reach will have a 10-pin I/O header similar to Tessel's.
 
 ### Battery / Power
 
-TODO: What battery requirements do we have?
+* USB power: Supports a 5V external battery charger. Fairly ubiquitous due to cellphone availability.
+* Battery: Operate off lipo batteries, so 3.3V. Lipos are longer lasting & easier to use than AA/AAA battery packs.
 
 ### Programming
 
